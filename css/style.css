@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 
-body {
+/* body {
     background-color: aqua;
-}
+} */
 
 :root {
     --discount-color: #EB0037;
@@ -20,6 +20,7 @@ body {
     width: 80%;
     background-color: white;
     margin: 3rem auto;
+    text-align: center;
 }
 
 /* style of article */
@@ -28,7 +29,7 @@ body {
     display: inline-block;
 
     width: 30%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .product-image {
@@ -102,6 +103,10 @@ body {
 
 .erased {
     text-decoration: line-through;
+}
+
+.product-infos {
+    text-align: left;
 }
 
 
