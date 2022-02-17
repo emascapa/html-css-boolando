@@ -8,11 +8,21 @@ body {
     background-color: aqua;
 }
 
+:root {
+    --discount-color: #EB0037;
+    --sustenibility-color: #00875A;
+    --new-price-color: #FF0000;
+}
+
+/* Dimensions of the container */
+
 #container {
     width: 80%;
     background-color: white;
     margin: 3rem auto;
 }
+
+/* style of article */
 
 .article {
     display: inline-block;
@@ -21,6 +31,40 @@ body {
     border: 1px solid black;
 }
 
-/* .image {
-    width: inherit;
-} */
+.image {
+    max-width:100%;;
+}
+
+/* heart badge */
+
+.heart {
+    height: 2rem;
+    width: 2rem;
+    background-color: white;
+    position: absolute;
+    top: 1rem;
+    right: 0;
+    text-align: center;
+    line-height: 2rem;
+    vertical-align: middle;
+}
+
+.badge {
+    display: inline-block;
+    padding: 0.2rem;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: bold;
+
+}
+
+.discount {
+    background-color: var(--discount-color);
+}
+
+.infos {
+    background-color: var(--sustenibility-color);
+}
+
+
+
