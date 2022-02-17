@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aqua;
+}
+
+#container {
+    width: 80%;
+    background-color: white;
+    margin: 3rem auto;
+}
+
+.article {
+    display: inline-block;
+    position: relative;
+    width: 30%;
+    border: 1px solid black;
+}
+
+/* .image {
+    width: inherit;
+} */
