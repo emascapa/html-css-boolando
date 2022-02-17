@@ -35,9 +35,22 @@ body {
     position: relative;
 }
 
-.image {
+.image1, .image2 {
     max-width:100%;;
 }
+
+.image2 {
+    visibility: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.article:hover .image2 {
+    visibility: visible;
+}
+
+
 
 /* heart badge */
 
